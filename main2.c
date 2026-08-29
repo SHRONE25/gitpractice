@@ -13,6 +13,10 @@ void feature()
     scanf("ENter a num %d ",a);
     printf("%d",a);
 }
+void feature2()
+{
+    printf("iam a feature");
+}
 int main()
 {
     printf("hello world");
