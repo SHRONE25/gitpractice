@@ -6,6 +6,13 @@ void func()
     printf("hello sir");
 
 }
+
+void feature()
+{
+    int a;
+    scanf("ENter a num %d ",a);
+    printf("%d",a);
+}
 int main()
 {
     printf("hello world");
