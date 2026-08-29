@@ -12,7 +12,6 @@ int main()
     printf("hello word");
     printf("the name is shravan");
     printf("helllo shravan");
-    printf("kaise he bhai");
 
     
 }
