@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+        }
+        .container{
+            background-color: rgb(169, 156, 164);
+            font-size: 35px;
+            height: 60px;
+            width: 80vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            
+        }
+        .text{
+            position: absolute;
+            animation-name: anime;
+            animation-duration: 6s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+            /* overflow:hidden; */
+       
+      
+    position: absolute;
+    white-space: wrap;   /* prevents text from breaking */
+    animation: anime 6s linear infinite;
+}
+
+@keyframes anime{
+    from{
+        transform: translateX(2k%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+
+
+       }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            hey iam the goat
+        </div>
+    </div>
+</body>
+</html>
